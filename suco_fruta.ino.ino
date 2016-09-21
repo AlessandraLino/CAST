@@ -28,9 +28,6 @@ Ultrasonic ultrasonic(TRIGGER, ECHO);
 long ms = 0;
 float dcm = 0;
 
-// Valor de referencia da LINHA a ser seguida (adquirido pelos sensores)
-
-
 void setup() {
   // Inicializa os pinos dos motores como saida
   pinMode(PIN_O1_MOTOR_ESQ, OUTPUT);
